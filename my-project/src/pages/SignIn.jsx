@@ -1,6 +1,10 @@
+import LoginForm from "../components/LoginForm"
+
 function SignIn() {
     return(
-        <div>Hello World</div>
+        <>
+            <LoginForm />
+        </>
     )
 }
 
