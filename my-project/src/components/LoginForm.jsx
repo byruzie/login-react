@@ -23,9 +23,8 @@ function LoginForm() {
                     </div>
                     <div className="mt-8">
                         <button className="w-full bg-black text-white rounded-md p-1 font-semibold cursor-pointer">Log In</button>
-                        <div className="flex mt-4">
-                            <p>Don't have an account?</p>
-                            <a className="ml-1 font-semibold underline" href="signup">Sign up</a>
+                        <div className="flex mt-2">
+                            <p className="text-gray-400">Don't have an account?<a className="ml-1 font-semibold underline text-gray-900" href="signup">Sign up</a></p>
                         </div>
                     </div>
                 </div>

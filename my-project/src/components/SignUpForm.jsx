@@ -23,6 +23,7 @@ function SignUpForm() {
                     </div>
                     <div className="mt-6">
                         <button className="w-full bg-black text-white rounded-md p-1 font-semibold cursor-pointer">Create account</button>
+                        <p className="mt-2 text-gray-400">Already have an account?<a className="ml-1 font-semibold underline text-gray-900" href="/">Login</a></p>
                     </div>
                 </div>
                 <div className="mt-12">
