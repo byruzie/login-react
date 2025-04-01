@@ -30,7 +30,7 @@ function SignUpForm() {
                         <input className="border border-gray-400 rounded-md pl-2 py-1" type="text" placeholder="Password" />
                     </div>
                     <div className="mt-6">
-                        <button href="/" className="w-full bg-black text-white rounded-md p-1 font-semibold cursor-pointer">Create account</button>
+                        <button className="w-full bg-black text-white rounded-md p-1 font-semibold cursor-pointer">Create account</button>
                         <p className="mt-2 text-gray-400">Already have an account?<a className="ml-1 font-semibold underline text-gray-900" href="/">Login</a></p>
                     </div>
                 </div>
