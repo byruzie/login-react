@@ -1,3 +1,5 @@
+import Input from "./Input"
+
 function LoginForm() {
     return (
         <div className="h-screen w-screen flex justify-center items-center">
@@ -11,8 +13,8 @@ function LoginForm() {
                 </div>
                 <div className="mt-8">
                     <div className="flex flex-col">
-                        <input className="border border-gray-400 rounded-md pl-2 py-1" type="text" name="Email" id="" placeholder="Email" />
-                        <input className="border border-gray-400 rounded-md mt-4 pl-2 py-1" type="text" name="Password" id="" placeholder="Password" />
+                        <Input label={'Email'} placeholder={'Enter your email'} />
+                        <Input label={'Password'} placeholder={'Enter your password'} />
                     </div>
                     <div className="flex justify-between mt-4">
                         <div className="flex items-center">
