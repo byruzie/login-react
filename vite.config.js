@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     react()],
-  base: "/login-signup-react",
+  base: "/login-react",
 })

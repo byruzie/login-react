@@ -1,6 +1,6 @@
 {
   "name": "my-project",
-  "homepage": "https://byruzie.github.io/login-signup-react",
+  "homepage": "https://byruzie.github.io/login-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeployd": "npm run build",
-    "deployd": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.15",
