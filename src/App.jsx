@@ -9,12 +9,12 @@ function AnimatedRoutes() {
   return (
     <AnimatePresence mode='wait'>
       <Routes location={location} key={location.pathname}>
-        <Route path='/' element={
+        <Route path='/login-react' element={
           <PageWrapper>
             <SignIn />
           </PageWrapper>
           } />
-        <Route path='/signup' element={
+        <Route path='/login-react/signup' element={
           <PageWrapper>
             <SignUp />
           </PageWrapper>
